@@ -54,7 +54,9 @@ const securityHeaders = [
 
 module.exports = withBundleAnalyzer({
   images: {
-    disableStaticImages: true,
+    unoptimized: true,
+    loader: 'custom',
+    path: 'https://www.solidbackgrounds.com/images/1920x1080/1920x1080-gray-solid-color-background.jpg',
   }, 
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
