@@ -1,6 +1,6 @@
 ---
 name: Erick Rolando
-avatar: /static/images/mateo.jpeg
+avatar: /my-web/static/images/mateo.jpeg
 occupation: Ingeniero de Sistemas
 company:
 email: erick15mateorosas@gmail.com
