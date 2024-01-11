@@ -53,6 +53,7 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  basePath: '/my-web',
   images: {
     unoptimized: true,
     loader: 'custom',
