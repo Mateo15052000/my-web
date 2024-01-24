@@ -1,19 +1,16 @@
 const siteMetadata = {
-  title: 'Ondiek Elijah',
-  author: 'Ondiek Elijah',
-  headerTitle: 'Dev Elie',
-  description: "Ondiek Elijah's personal blog",
+  title: 'Erick Mateo',
+  author: 'Erick Mateo',
+  headerTitle: 'Dev Mateo',
+  description: "Erick Mateo portafolio",
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://www.ondiek-elijah.me/',
-  siteRepo: 'https://github.com/ondiekelijah/ondiek-elijah',
+  siteRepo: 'https://github.com/Mateo15052000?tab=repositories',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/ondiek.png',
-  socialBanner: '/static/images/twitter-card.png',
-  email: 'eochieng9448@gmail.com',
-  github: 'https://github.com/ondiekelijah',
-  twitter: 'https://twitter.com/0ndiekElijah',
-  linkedin: 'https://www.linkedin.com/in/ondiek-elijah-2aaba4198/',
+  image: '/static/images/mateo.jpeg',
+  email: 'erick15mateorosas@gmail.com',
+  github: 'https://github.com/Mateo15052000',
+  linkedin: 'https://www.linkedin.com/in/erick-rolando-mateo-rosas-38b103201/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

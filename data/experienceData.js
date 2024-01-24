@@ -3,11 +3,11 @@
     title: 'Autor',
     company: 'CONAMAPP',
     location: 'Remote, Kenya',
-     range: 'Noviembre 2021 - Julio 2022',
+     range: 'November 2021 - July 2022',
      url: 'https://www.facebook.com/conamapp/?locale=es_LA',
-     text1: 'Empresa de ingeniería que se enfoca en el rubro de brindar servicios en distintas áreas de ingeniería con alto reconocimiento a nivel nacional.',
-     text2: 'Trabaje como programador de Software FreeLancer para un sistema de escrito para un colegio naval.',
-     text3: 'Para el desarrollo del programa se trabajo con el Lenguaje .NET, C#, C++ y como motor Base de Datos SQL Server y MySQL.'
+     text1: 'Engineering company that focuses on the field of providing services in different areas of engineering with high national recognition.',
+     text2: 'I worked as a FreeLancer Software programmer for a writing system for a naval college.',
+     text3: 'For the development of the program, we worked with the .NET Language, C#, C++ and SQL Server and MySQL Database as the engine.'
    },
 
 ]
