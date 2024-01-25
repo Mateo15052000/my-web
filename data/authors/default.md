@@ -1,6 +1,6 @@
 ---
 name: Erick Rolando
-avatar: /my-web/static/images/mateo.jpeg
+avatar: /static/images/mateo.jpeg
 company:
 email: erick15mateorosas@gmail.com
 linkedin: https://www.linkedin.com/in/erick-rolando-mateo-rosas-38b103201/
