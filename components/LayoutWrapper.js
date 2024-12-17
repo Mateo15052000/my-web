@@ -16,7 +16,7 @@ const LayoutWrapper = ({ children }) => {
         <header className="flex items-center justify-between py-6">
           <div>
             <Link href="/" aria-label="Erick website">
-              <Logo className="h-50" />
+              <h1>Inicio</h1>
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">

@@ -5,6 +5,7 @@ import { PageSEO } from '@/components/SEO'
 import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import Link from '@/components/Link'
+//import cvLink from '../public/CV/cv.pdf'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
@@ -20,6 +21,8 @@ export default function AuthorLayout({ children, frontMatter }) {
     text2,
     text3,
   } = frontMatter
+
+  const cvLink = '/CV/cv.pdf'
 
   return (
     <>
@@ -51,11 +54,10 @@ export default function AuthorLayout({ children, frontMatter }) {
             {/* Download CV button */}
             <div className="flex justify-center pt-8">
               <a
-                href="https://docs.google.com/document/d/15EyX05Sg4k-fDOvEoEWjR53yjP_r_xHh9LBwLj3ldOE/edit?usp=sharing"
-                target="_blank"
-                className="bg-primary shadow-outline-teal inline-flex items-center
-                rounded-full px-4 py-3 text-sm font-semibold
-                text-white hover:bg-teal-700 focus:border-teal-700 focus:outline-none"
+                href={cvLink}
+                //target="_blank"
+                download="CV"
+                className="roun ded bg-gray-600 px-4 py-2 font-bold text-white transition-colors hover:bg-gray-800 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-600"
                 rel="noreferrer"
               >
                 Download CV
@@ -68,7 +70,7 @@ export default function AuthorLayout({ children, frontMatter }) {
       <div className="mt-10">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Experience
+            Experience
           </h1>
         </div>
         <div className="max-w-none pt-8 pb-8 xl:col-span-2">

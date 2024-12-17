@@ -23,6 +23,9 @@ const Experience = ({ title, company, location, range, url, text1, text2, text3 
       </div>
       <div>
         <div className="text-primary-color dark:text-primary-color-dark p-1 font-mono text-sm">
+          {location}
+        </div>
+        <div className="text-primary-color dark:text-primary-color-dark p-1 font-mono text-sm">
           {range}
         </div>
         <div className="p-2">
