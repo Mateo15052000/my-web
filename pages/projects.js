@@ -31,6 +31,8 @@ export default function Projects() {
                 reactRouter={d.reactRouter}
                 sass={d.sass}
                 themovieDB={d.themovieDB}
+                nextjs={d.nextjs}
+                typescript={d.typescript}
               />
             ))}
           </div>

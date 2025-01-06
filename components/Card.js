@@ -1,8 +1,21 @@
 import Image from './Image'
 import Link from './Link'
-import { FaReact } from "react-icons/fa";
+import { FaReact } from 'react-icons/fa'
 
-const Card = ({ title, description, imgSrc, href, react, redux, tailwindcss, reactRouter, sass, themovieDB}) => (
+const Card = ({
+  title,
+  description,
+  imgSrc,
+  href,
+  react,
+  redux,
+  tailwindcss,
+  reactRouter,
+  sass,
+  themovieDB,
+  nextjs,
+  typescript,
+}) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -43,16 +56,16 @@ const Card = ({ title, description, imgSrc, href, react, redux, tailwindcss, rea
         <div className="flex items-center">
           <p className="">Tools:</p>
           <div className="flex space-x-3 px-4 text-3xl">
-              <i className="text-blue-500">{react}</i>
-              <i className="text-purple-500">{redux}</i>
-              <i className="text-teal-500">{tailwindcss}</i>
-              <i className="text-yellow-500">{reactRouter}</i>
-              <i className="text-pink-500">{sass}</i>
-              <i className="text-red-500">{themovieDB}</i>
-            
+            <i className="text-blue-500">{react}</i>
+            <i className="text-purple-500">{redux}</i>
+            <i className="text-teal-500">{tailwindcss}</i>
+            <i className="text-yellow-500">{reactRouter}</i>
+            <i className="text-pink-500">{sass}</i>
+            <i className="text-red-500">{themovieDB}</i>
+            <i>{nextjs}</i>
+            <i className="text-blue-500">{typescript}</i>
           </div>
         </div>
-        
       </div>
     </div>
   </div>

@@ -15,7 +15,11 @@ const LayoutWrapper = ({ children }) => {
       <div className="flex h-screen flex-col justify-between">
         <header className="flex items-center justify-between py-6">
           <div>
-            <Link href="/" aria-label="Erick website">
+            <Link
+              href="/"
+              aria-label="Erick website"
+              className="hover:dark:text-primary-color-dark hover:text-primary-color p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+            >
               <h1>Inicio</h1>
             </Link>
           </div>
